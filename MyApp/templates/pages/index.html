@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        div {
+            width: 15vw;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        a {
+            font-size: 2em;
+        }
+    </style>
+    <title>Prueba de urls y views</title>
+</head>
+<body>
+    <h1>INDEX</h1>
+    <div>
+        <a href="{% url 'indexD' %}">Ir indexD</a>
+        <a href="{% url 'indexC' %}">Ir indexC</a>
+    </div>
+
+    <img src="https://pbs.twimg.com/profile_images/820971065937657856/BfucTXHp_400x400.jpg" alt="">
+</body>
+</html>
